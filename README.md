@@ -23,4 +23,4 @@ les informations a ajouter :
 - la date ( pour chaque data ) #utile pour faire des statistiques.
 - état de la batterie du drone ( peacemakers )
 - number of agited people ( nombre de personne en état de colère ) utile pour pouvoir envoyer un grand nombre de drones pour les remettre en état stable
-- ( pourcentage of agited people per zone ) pour les statistiques
+- ( pourcentage of agited people per zone ) pour les statistiques.
