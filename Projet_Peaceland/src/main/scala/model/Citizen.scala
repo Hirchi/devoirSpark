@@ -9,14 +9,12 @@ Case class Citizen(citizenName : String, peaceScore: Int){
     }
 }
 object Citizen{
-    def createRandomCitizen() = {
+    def RandomCitizen() = {
 
-      val name = Name.name
-      
-      val start = 0
-      val end = 100
+      val name = Name.randomName
+    
       val numberRandom = new scala.util.Random
-      val peacescore = start + numberRandom.nextInt(( end - start ) + 1 )
+      val peacescore = start + numberRandom.nextInt(( 100) )
 
       Citizen(name, peacescore)
 
