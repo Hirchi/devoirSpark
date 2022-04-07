@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+
+<head>
+    <title>Alert Viewer</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+        html {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: black;
+            color: #ffffff;
+            font-family: sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            height: 100%;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        .alert-container {
+            margin-right: auto;
+            margin-left: auto;
+            width: 80%;
+            height: auto;
+            padding: 4em;
+        }
+
+        .alert-box {
+            margin-top: 1em;
+            width: 40%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            border: 2px solid;
+            box-shadow: 2px 2px 2px 1px rgb(115 4 4);
+            border-radius: 5px;
+            background-color: grey;
+        }
+
+        .title {
+            text-align: center;
+            margin-bottom: 1em;
+            font-size: 4em;
+            color: #2b2ec5;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="alert-container">
+        <h1 class="title">** Alert viewer **</h1>
+    </div>
+
+    <script type="text/javascript">
+        setTimeout(() => {
+            let socket = new WebSocket("ws://localhost:8000/alerts");
+            socket.onopen = () => console.info("Connected to backend")
+
+            socket.onmessage = function (event) {
+                let data = JSON.parse(event.data);
+                if (data.length) {
+                    data = data.map(x => JSON.parse(x))
+                    data.forEach((e) => {
+                        let div = document.createElement('div');
+                        div.className = "alert-box"
+                        div.innerHTML = "<ul><li>Date: <b>" + e.date + "</b></li><li>Country: <b>"
+                            + e.country + "</b> </li><li>Message: <b>" + e.message + "</b></li></ul>";
+                        document.querySelector('.alert-container').appendChild(div);
+                    });
+
+                }
+                console.log(data);
+            };
+        }, 1000);
+
+    </script>
+</body>
+
+</html>
