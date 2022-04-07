@@ -1,0 +1,107 @@
+2022.04.07 13:37:20 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mustapha/Downloads/Scala-Peaceland/.metals/lsp.trace.json or /home/mustapha/.cache/metals/lsp.trace.json[0m
+2022.04.07 13:37:21 INFO  logging to file /home/mustapha/Downloads/Scala-Peaceland/.metals/metals.log[0m
+2022.04.07 13:37:21 INFO  Started: Metals version 0.11.2 in workspace '/home/mustapha/Downloads/Scala-Peaceland' for client Visual Studio Code 1.62.1.[0m
+2022.04.07 13:37:21 INFO  Parse release: 11.0.11[0m
+2022.04.07 13:37:25 INFO  time: initialize in 4.16s[0m
+2022.04.07 13:37:26 WARN  Build server is not auto-connectable.[0m
+2022.04.07 13:37:29 WARN  no build target for: /home/mustapha/Downloads/Scala-Peaceland/build.sbt[0m
+2022.04.07 13:37:36 INFO  no build target found for /home/mustapha/Downloads/Scala-Peaceland/build.sbt. Using presentation compiler with project's scala-library version: 3.1.1[0m
+2022.04.07 13:37:38 INFO  time: code lens generation in 1.65s[0m
+2022.04.07 13:37:38 INFO  time: code lens generation in 8.68s[0m
+2022.04.07 13:37:38 INFO  time: code lens generation in 1.72s[0m
+2022.04.07 13:40:19 WARN  no build target for: /home/mustapha/Downloads/Scala-Peaceland/build.sbt[0m
+2022.04.07 13:40:25 INFO  running '/home/mustapha/.cache/coursier/jvm/adopt@1.11.0-11/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals3304187723934510792/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.04.07 13:40:25 WARN  no build target for: /home/mustapha/Downloads/Scala-Peaceland/project/metals.sbt[0m
+2022.04.07 13:40:25 WARN  no build target for: /home/mustapha/Downloads/Scala-Peaceland/project/project/metals.sbt[0m
+2022.04.07 13:40:27 INFO  [info] welcome to sbt 1.5.5 (AdoptOpenJDK Java 11.0.11)[0m
+2022.04.07 13:40:31 INFO  [info] loading settings for project scala-peaceland-build-build from metals.sbt ...[0m
+2022.04.07 13:40:33 INFO  [info] loading project definition from /home/mustapha/Downloads/Scala-Peaceland/project/project[0m
+2022.04.07 13:40:36 INFO  [info] loading settings for project scala-peaceland-build from metals.sbt ...[0m
+2022.04.07 13:40:36 INFO  [info] loading project definition from /home/mustapha/Downloads/Scala-Peaceland/project[0m
+2022.04.07 13:40:42 INFO  [success] Generated .bloop/scala-peaceland-build.json[0m
+2022.04.07 13:40:42 INFO  [success] Total time: 6 s, completed Apr 7, 2022, 1:40:43 PM[0m
+2022.04.07 13:40:46 INFO  [info] loading settings for project scala-peaceland from build.sbt ...[0m
+2022.04.07 13:40:46 INFO  [info] set current project to Peaceland project (in build file:/home/mustapha/Downloads/Scala-Peaceland/)[0m
+2022.04.07 13:41:06 INFO  [success] Generated .bloop/scala-peaceland-test.json[0m
+2022.04.07 13:41:06 INFO  [success] Generated .bloop/scala-peaceland.json[0m
+2022.04.07 13:41:06 INFO  [success] Total time: 19 s, completed Apr 7, 2022, 1:41:06 PM[0m
+2022.04.07 13:41:06 INFO  time: ran 'sbt bloopInstall' in 41s[0m
+2022.04.07 13:41:06 INFO  Attempting to connect to the build server...[0m
+2022.04.07 13:41:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mustapha/Downloads/Scala-Peaceland/.metals/bsp.trace.json or /home/mustapha/.cache/metals/bsp.trace.json[0m
+2022.04.07 13:41:31 ERROR Timeout waiting for 'build/initialize' response[0m
+2022.04.07 13:41:31 WARN  Retrying connection to the build server Bloop[0m
+2022.04.07 13:41:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mustapha/Downloads/Scala-Peaceland/.metals/bsp.trace.json or /home/mustapha/.cache/metals/bsp.trace.json[0m
+2022.04.07 13:41:31 INFO  Attempting to connect to the build server...[0m
+2022.04.07 13:41:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mustapha/Downloads/Scala-Peaceland/project/.metals/bsp.trace.json or /home/mustapha/.cache/metals/bsp.trace.json[0m
+2022.04.07 13:41:44 INFO  time: Connected to build server in 37s[0m
+2022.04.07 13:41:44 INFO  Connected to Build server: Bloop v1.4.13[0m
+2022.04.07 13:41:45 INFO  time: Imported build in 0.47s[0m
+2022.04.07 13:42:10 INFO  time: indexed workspace in 25s[0m
+2022.04.07 13:42:20 INFO  time: code lens generation in 9.05s[0m
+2022.04.07 13:44:53 INFO  Deduplicating compilation of scala-peaceland-build from bsp client 'Metals 0.11.2' (since 3m 21.849s)[0m
+2022.04.07 13:44:59 INFO  running '/home/mustapha/.cache/coursier/jvm/adopt@1.11.0-11/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals13100598582417601706/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.04.07 13:45:02 INFO  [info] welcome to sbt 1.5.5 (AdoptOpenJDK Java 11.0.11)[0m
+2022.04.07 13:45:03 INFO  [info] loading settings for project scala-peaceland-build-build from metals.sbt ...[0m
+2022.04.07 13:45:05 INFO  [info] loading project definition from /home/mustapha/Downloads/Scala-Peaceland/project/project[0m
+2022.04.07 13:45:06 INFO  [info] loading settings for project scala-peaceland-build from metals.sbt ...[0m
+2022.04.07 13:45:06 INFO  [info] loading project definition from /home/mustapha/Downloads/Scala-Peaceland/project[0m
+2022.04.07 13:45:10 INFO  [success] Generated .bloop/scala-peaceland-build.json[0m
+2022.04.07 13:45:10 INFO  [success] Total time: 3 s, completed Apr 7, 2022, 1:45:10 PM[0m
+2022.04.07 13:45:13 INFO  [info] loading settings for project scala-peaceland from build.sbt ...[0m
+2022.04.07 13:45:13 INFO  [info] set current project to Peaceland project (in build file:/home/mustapha/Downloads/Scala-Peaceland/)[0m
+2022.04.07 13:45:25 INFO  [success] Generated .bloop/scala-peaceland.json[0m
+2022.04.07 13:45:25 INFO  [success] Generated .bloop/scala-peaceland-test.json[0m
+2022.04.07 13:45:25 INFO  [success] Total time: 12 s, completed Apr 7, 2022, 1:45:25 PM[0m
+2022.04.07 13:45:26 INFO  time: ran 'sbt bloopInstall' in 26s[0m
+2022.04.07 13:45:26 INFO  Disconnecting from Bloop session...[0m
+2022.04.07 13:45:26 INFO  Shut down connection with build server.[0m
+2022.04.07 13:45:26 INFO  Shut down connection with build server.[0m
+2022.04.07 13:45:26 INFO  Attempting to connect to the build server...[0m
+2022.04.07 13:45:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mustapha/Downloads/Scala-Peaceland/.metals/bsp.trace.json or /home/mustapha/.cache/metals/bsp.trace.json[0m
+2022.04.07 13:45:26 INFO  Attempting to connect to the build server...[0m
+2022.04.07 13:45:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mustapha/Downloads/Scala-Peaceland/project/.metals/bsp.trace.json or /home/mustapha/.cache/metals/bsp.trace.json[0m
+2022.04.07 13:45:26 INFO  time: Connected to build server in 0.21s[0m
+2022.04.07 13:45:26 INFO  Connected to Build server: Bloop v1.4.13[0m
+2022.04.07 13:45:31 INFO  time: indexed workspace in 5.4s[0m
+2022.04.07 13:45:35 INFO  time: code lens generation in 2.02s[0m
+2022.04.07 13:51:30 INFO  compiling scala-peaceland (5 scala sources)[0m
+2022.04.07 13:51:57 WARN  there was one deprecation warning; re-run with -deprecation for details[0m
+2022.04.07 13:51:57 INFO  time: compiled scala-peaceland in 27s[0m
+Apr 07, 2022 2:08:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 59
+2022.04.07 14:09:31 INFO  compiling scala-peaceland (1 scala source)[0m
+2022.04.07 14:09:33 INFO  time: compiled scala-peaceland in 2.42s[0m
+2022.04.07 14:09:56 INFO  compiling scala-peaceland (1 scala source)[0m
+2022.04.07 14:09:58 INFO  time: compiled scala-peaceland in 2.29s[0m
+Apr 07, 2022 2:15:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 140
+Apr 07, 2022 2:26:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 187
+2022.04.07 14:26:27 INFO  compiling scala-peaceland (1 scala source)[0m
+2022.04.07 14:26:29 INFO  time: compiled scala-peaceland in 2.11s[0m
+2022.04.07 14:26:48 INFO  compiling scala-peaceland (1 scala source)[0m
+2022.04.07 14:26:50 INFO  time: compiled scala-peaceland in 1.83s[0m
+2022.04.07 16:50:48 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mustapha/Downloads/Scala-Peaceland/.metals/lsp.trace.json or /home/mustapha/.cache/metals/lsp.trace.json[0m
+2022.04.07 16:50:49 INFO  logging to file /home/mustapha/Downloads/Scala-Peaceland/.metals/metals.log[0m
+2022.04.07 16:50:49 INFO  Started: Metals version 0.11.2 in workspace '/home/mustapha/Downloads/Scala-Peaceland' for client Visual Studio Code 1.66.0.[0m
+2022.04.07 16:50:49 INFO  Parse release: 11.0.11[0m
+2022.04.07 16:50:54 INFO  time: initialize in 4.6s[0m
+2022.04.07 16:50:59 INFO  Attempting to connect to the build server...[0m
+2022.04.07 16:50:59 INFO  skipping build import with status 'Installed'[0m
+2022.04.07 16:51:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mustapha/Downloads/Scala-Peaceland/.metals/bsp.trace.json or /home/mustapha/.cache/metals/bsp.trace.json[0m
+2022.04.07 16:51:07 INFO  Attempting to connect to the build server...[0m
+2022.04.07 16:51:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mustapha/Downloads/Scala-Peaceland/project/.metals/bsp.trace.json or /home/mustapha/.cache/metals/bsp.trace.json[0m
+2022.04.07 16:51:07 INFO  time: Connected to build server in 9.03s[0m
+2022.04.07 16:51:07 INFO  Connected to Build server: Bloop v1.4.13[0m
+2022.04.07 16:51:08 INFO  time: Imported build in 0.39s[0m
+2022.04.07 16:51:17 INFO  time: indexed workspace in 9.15s[0m
+2022.04.07 17:05:02 INFO  compiling scala-peaceland (1 scala source)[0m
+2022.04.07 17:05:12 INFO  time: compiled scala-peaceland in 9.63s[0m
+2022.04.07 17:05:27 INFO  compiling scala-peaceland (1 scala source)[0m
+2022.04.07 17:05:33 INFO  time: compiled scala-peaceland in 5.57s[0m
+2022.04.07 17:06:10 INFO  time: code lens generation in 2.1s[0m
+2022.04.07 17:06:10 INFO  time: code lens generation in 2.42s[0m
+2022.04.07 17:08:19 INFO  skipping build import with status 'Installed'[0m
+2022.04.07 17:10:38 INFO  shutting down Metals[0m
+2022.04.07 17:10:38 INFO  Shut down connection with build server.[0m
+2022.04.07 17:10:38 INFO  Shut down connection with build server.[0m

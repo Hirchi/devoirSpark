@@ -1,0 +1,33 @@
+2022.04.07 12:54:06 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mustapha/Downloads/Scala-Peaceland/src/main/scala/.metals/lsp.trace.json or /home/mustapha/.cache/metals/lsp.trace.json[0m
+2022.04.07 12:54:07 INFO  logging to file /home/mustapha/Downloads/Scala-Peaceland/src/main/scala/.metals/metals.log[0m
+2022.04.07 12:54:07 INFO  Started: Metals version 0.11.2 in workspace '/home/mustapha/Downloads/Scala-Peaceland/src/main/scala' for client Visual Studio Code 1.62.1.[0m
+2022.04.07 12:54:07 INFO  Parse release: 11.0.11[0m
+2022.04.07 12:54:12 INFO  time: initialize in 4.3s[0m
+2022.04.07 12:54:12 WARN  Build server is not auto-connectable.[0m
+2022.04.07 12:54:12 WARN  no build tool detected in workspace '/home/mustapha/Downloads/Scala-Peaceland/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2022.04.07 12:54:15 WARN  no build target for: /home/mustapha/Downloads/Scala-Peaceland/src/main/scala/Consumer.scala[0m
+2022.04.07 12:54:23 INFO  no build target found for /home/mustapha/Downloads/Scala-Peaceland/src/main/scala/Consumer.scala. Using presentation compiler with project's scala-library version: 3.1.1[0m
+2022.04.07 12:54:26 INFO  time: code lens generation in 10s[0m
+2022.04.07 13:02:02 WARN  no build target for: /home/mustapha/Downloads/Scala-Peaceland/src/main/scala/Stats.scala[0m
+2022.04.07 13:02:10 WARN  no build target for: /home/mustapha/Downloads/Scala-Peaceland/src/main/scala/Stats.scala[0m
+Apr 07, 2022 1:02:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 40
+2022.04.07 13:02:12 WARN  no build target for: /home/mustapha/Downloads/Scala-Peaceland/src/main/scala/Consumer.scala[0m
+2022.04.07 13:33:09 WARN  no build target for: /home/mustapha/Downloads/Scala-Peaceland/src/main/scala/Consumer.scala[0m
+Apr 07, 2022 1:33:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 73
+Apr 07, 2022 1:33:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 74
+2022.04.07 13:33:14 WARN  no build target for: /home/mustapha/Downloads/Scala-Peaceland/src/main/scala/Stats.scala[0m
+2022.04.07 14:14:07 INFO  shutting down Metals[0m
+2022.04.07 16:50:02 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mustapha/Downloads/Scala-Peaceland/src/main/scala/.metals/lsp.trace.json or /home/mustapha/.cache/metals/lsp.trace.json[0m
+2022.04.07 16:50:03 INFO  logging to file /home/mustapha/Downloads/Scala-Peaceland/src/main/scala/.metals/metals.log[0m
+2022.04.07 16:50:03 INFO  Started: Metals version 0.11.2 in workspace '/home/mustapha/Downloads/Scala-Peaceland/src/main/scala' for client Visual Studio Code 1.66.0.[0m
+2022.04.07 16:50:03 INFO  Parse release: 11.0.11[0m
+2022.04.07 16:50:10 INFO  time: initialize in 7.07s[0m
+2022.04.07 16:50:11 WARN  Build server is not auto-connectable.[0m
+2022.04.07 16:50:11 WARN  no build tool detected in workspace '/home/mustapha/Downloads/Scala-Peaceland/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2022.04.07 16:50:15 WARN  no build target for: /home/mustapha/Downloads/Scala-Peaceland/src/main/scala/Stats.scala[0m
+2022.04.07 16:50:15 WARN  no build target for: /home/mustapha/Downloads/Scala-Peaceland/src/main/scala/Consumer.scala[0m
+2022.04.07 16:50:25 INFO  no build target found for /home/mustapha/Downloads/Scala-Peaceland/src/main/scala/Stats.scala. Using presentation compiler with project's scala-library version: 3.1.1[0m
+2022.04.07 16:50:30 INFO  shutting down Metals[0m
